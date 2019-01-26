@@ -1,0 +1,15 @@
+$color_on: yellow;
+$color_off: grey;
+
+.letter{
+  text-align: center;
+  font-size: 8em;
+}
+
+.active{
+  color: $color_on;
+}
+
+.inactive{
+  color: $color_off;
+}
