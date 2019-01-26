@@ -1,3 +1,8 @@
 <template>
-  <h1>${message}</h1>
+  <require from="./tile"></require>
+  <div class="container">
+    <div class="row">
+
+      <tile class="col" repeat.for="t of tiles" letter.bind="t.text"></tile>
+    </div>
 </template>
