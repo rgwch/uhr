@@ -4,8 +4,8 @@ import "./styles.scss";
 import { Letters } from "./letters";
 
 export class App {
-  message = "Hello World!";
   tiles = [
+    { token: "bald", text: "bald", display: "inactive" },  
     { token: "fuenf", text: "fünf", display: "inactive" },
     { token: "zehn", text: "zehn", display: "inactive" },
     { token: "viertel", text: "1/4", display: "inactive" },
@@ -13,6 +13,7 @@ export class App {
     { token: "vor", text: "vor", display: "inactive" },
     { token: "nach", text: "nach", display: "inactive" },
     { token: "halb", text: "halb", display: "inactive" },
+    { token: "uhr", text: "punkt", display: "inactive" },
     { token: "1", text: "eins", display: "inactive" },
     { token: "2", text: "2", display: "inactive" },
     { token: "3", text: "drei", display: "inactive" },
@@ -24,7 +25,9 @@ export class App {
     { token: "9", text: "neun", display: "inactive" },
     { token: "10", text: "10", display: "inactive" },
     { token: "11", text: "elf", display: "inactive" },
-    { token: "12", text: "zwölf", display: "inactive" }
+    { token: "12", text: "zwölf", display: "inactive" },
+    { token: "vorbei", text: "vorbei", display: "inactive" }
+  
   ];
 
   attached() {
