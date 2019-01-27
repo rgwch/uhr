@@ -1,5 +1,4 @@
-import "bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
 import { Letters } from "./letters";
 import { autoinject } from "aurelia-framework";
