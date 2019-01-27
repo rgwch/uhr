@@ -1,15 +1,17 @@
-$color_on: yellow;
+$color_on: orange;
 $color_off: grey;
 
 .letter{
   text-align: center;
-  font-size: 8em;
+  font-size: 6em;
 }
 
 .active{
   color: $color_on;
+  opacity: 1.0;
 }
 
 .inactive{
   color: $color_off;
+  opacity: 0.3;
 }
