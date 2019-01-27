@@ -5,7 +5,7 @@ Eine kleine Übung mit dem Web-Framework [Aurelia](http://www.aurelia.io).
 ![Züritüütsch](screenshot_ch.jpg)
 ![Hochdeutsch](screenshot_de.jpg)
 
-Zeigt Grundgerüst, @autoinject, @inlineView, Webpack-Konfiguration, SCSS Stylesheet, Sprachumschaltung (I18N), Repeat-Patterns etc.
+Zeigt Grundgerüst, @autoinject, @inlineView, Webpack-Konfiguration, SCSS Stylesheet, Sprachumschaltung (I18N), Repeat-Patterns, Tests etc.
 
 [Live Ansicht](http://webelexis.ch/uhr)
 
@@ -18,4 +18,8 @@ Zeigt Grundgerüst, @autoinject, @inlineView, Webpack-Konfiguration, SCSS Styles
      au run --watch
 
 Dann mit dem Browser auf http://localhost:8080 gehen.     
+
+## Test
+
+     au jest
 
