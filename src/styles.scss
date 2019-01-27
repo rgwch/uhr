@@ -3,7 +3,7 @@ $color_off: lightgrey;
 
 .letter{
   text-align: center;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 400;
 }
 
@@ -15,4 +15,18 @@ $color_off: lightgrey;
 .inactive{
   color: $color_off;
   opacity: 0.3;
+}
+
+.language{
+  color: grey;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+.frame{
+  border-color: aqua;
+  border-radius: 10px;
+  border-style: groove;
+  border-width: 4px;
 }

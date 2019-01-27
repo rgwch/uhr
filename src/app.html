@@ -1,7 +1,9 @@
 <template>
   <require from="./tile"></require>
   <div class="container">
-    <div class="row">
-      <tile class="col letter" repeat.for="t of tiles" letter.bind="t.text" class.bind="t.display"></tile>
+    <span class="language" click.delegate="lang('ch')">züritüütsch</span>
+    <span class="language" click.delegate="lang('de')">hochdeutsch</span>
+    <div class="row frame">
+      <tile class="col letter" repeat.for="t of tiles" letter.bind="t.token" class.bind="t.display"></tile>
     </div>
 </template>
