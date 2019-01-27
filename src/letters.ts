@@ -3,7 +3,8 @@ import * as moment from "moment";
 export class Letters {
   public getTokensForTime(date) {
     const m = moment(date);
-    const hr = m.hours() > 12 ? m.hours() - 12 : m.hours();
+    const hr =
+      m.hours() > 12 ? m.hours() - 12 : m.hours() == 0 ? 12 : m.hours();
     const n = (hr == 12 ? 1 : hr + 1).toString();
     const h = hr.toString();
     const min = m.minute();
@@ -12,7 +13,7 @@ export class Letters {
     switch (rounded) {
       case 0:
       case 60:
-        ret = [h, "uhr"];
+        ret = [min < rounded ? n : h, "uhr"];
         break;
       case 5:
         ret = ["fuenf", "nach", h];
